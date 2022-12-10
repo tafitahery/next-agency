@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Intro from '../components/Intro';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -8,7 +9,7 @@ export default function Home() {
         <title>Lama Dev</title>
         <meta name="description" content="The best YT Channel" />
       </Head>
-      <h1 className={styles.title}>this is homepage</h1>
+      <Intro />
     </div>
   );
 }
