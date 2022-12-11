@@ -19,7 +19,7 @@ export default function Intro() {
         <button className={styles.button}>DISCOVER</button>
       </div>
       <div className={styles.card}>
-        <Image src="/img/Avocado.png" alt="" layout="fill" objectFit="cover" />
+        <Image src="/img/Avocado.png" alt="" fill objectFit="cover" />
       </div>
     </div>
   );
