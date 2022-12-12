@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Intro from '../components/Intro';
 import Services from '../components/Services';
+import Testimonials from '../components/Testimonials';
 import { data } from '../data';
 
 export default function Home({ services }) {
@@ -12,6 +13,7 @@ export default function Home({ services }) {
       </Head>
       <Intro />
       <Services services={services} />
+      <Testimonials />
     </div>
   );
 }
