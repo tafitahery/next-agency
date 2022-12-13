@@ -1,8 +1,13 @@
 import styles from '../../styles/Product.module.css';
 import { data } from '../../data';
 
-export default function Product() {
-  return <div className={styles.container}>Product</div>;
+export default function Product({ product }) {
+  return (
+    <div className={styles.container}>
+      <div className={styles.cardL}></div>
+      <div className={styles.cardS}></div>
+    </div>
+  );
 }
 
 export const getStaticPaths = async () => {
